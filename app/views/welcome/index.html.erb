@@ -5,6 +5,22 @@
     </p>
 
     <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
+    <table>
+      <tr>
+        <td>Python</td>
+        <td>JavaScript</td>
+      </tr>
+      <tr>
+        <td>
+          <%= react_component("SkillsProgressMeter", { text: "Python", number:
+          80 }) %>
+        </td>
+        <td>
+          <%= react_component("SkillsProgressMeter", { text: "Python", number:
+          90 }) %>
+        </td>
+      </tr>
+    </table>
 
     <!-- <i><%= fa_icon "camera-retro", text: "Take a photo" %></i> -->
   </main>
