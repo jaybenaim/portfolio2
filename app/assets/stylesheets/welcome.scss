@@ -10,12 +10,10 @@ p {
   text-align: center;
 }
 .skills-container {
-  width: 30.5%;
   background: #eee;
   border: 2px outset gray;
   border-radius: 5px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding: 0 10px 10px 10px;
   margin-right: 20px;
 }
 .skills-heading {
@@ -52,6 +50,12 @@ td {
   animation-duration: 2s;
 }
 
+.about-me-section {
+  height: 500px;
+  background: #eee;
+  border: 2px outset gray;
+  border-radius: 5px;
+}
 @keyframes pulse {
   0% {
     font-size: 100px;

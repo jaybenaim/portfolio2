@@ -7,68 +7,18 @@
         has.
       </em>
     </p>
-
-    <div class="skills-container">
-      <h3 class="skills-heading"><strong>Skills</strong></h3>
-      <table>
-        <tr>
-          <td>Python</td>
-          <td>JavaScript</td>
-          <td>Django</td>
-          <td>React</td>
-        </tr>
-        <tr>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "Python", number:
-            80 }) %>
-          </td>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "Javascript",
-            number: 80 }) %>
-          </td>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "Django", number:
-            70 }) %>
-          </td>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "React", number:
-            80 }) %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Bootstrap
-          </td>
-          <td>
-            MongoDB
-          </td>
-          <td>
-            PostgreSQL
-          </td>
-          <td>
-            Jest
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "Bootstrap",
-            number: 90 }) %>
-          </td>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "MongoDB",
-            number: 70 }) %>
-          </td>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "PostgreSQL",
-            number: 80 }) %>
-          </td>
-          <td>
-            <%= react_component("SkillsProgressMeter", { text: "Jest", number:
-            70 }) %>
-          </td>
-        </tr>
-      </table>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <%= react_component("Skills") %>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          col 2
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <%= react_component("AboutMe") %>
+        </div>
+      </div>
     </div>
-    <!-- <i><%= fa_icon "camera-retro", text: "Take a photo" %></i> -->
   </main>
 </div>
