@@ -9,10 +9,13 @@ h1,
 p {
   text-align: center;
 }
+td {
+  text-align: center;
+}
 .progress-bar {
   position: relative;
-  height: 20px;
-  width: 50px;
+  height: 24px;
+  width: 80px;
   border-radius: 50px;
   border: 1px solid #333;
   background: white !important;

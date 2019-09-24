@@ -7,7 +7,10 @@ class SkillsProgressMeterFiller extends React.Component {
         <div
           className="progress-bar-filler"
           style={{ width: `${this.props.percentage}%` }}
-        ></div>
+        >
+          {" "}
+          {this.props.percentage}%
+        </div>
       </React.Fragment>
     );
   }
