@@ -9,10 +9,8 @@ class SkillsProgressMeter extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
-          <div className="progress-bar">
-            <SkillsProgressMeterFiller percentage={this.state.percentage} />{" "}
-          </div>
+        <div className="progress-bar">
+          <SkillsProgressMeterFiller percentage={this.state.percentage} />{" "}
         </div>
       </React.Fragment>
     );
