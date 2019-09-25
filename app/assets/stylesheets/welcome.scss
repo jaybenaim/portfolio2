@@ -19,6 +19,9 @@ p {
 .skills-heading {
   text-align: center;
   margin-left: -20px;
+  font-size: 24px;
+  padding: 10px;
+  letter-spacing: 1.2px;
 }
 td {
   text-align: center;
@@ -55,6 +58,7 @@ td {
   background: #eee;
   border: 2px outset gray;
   border-radius: 5px;
+  padding: 10px;
 }
 @keyframes pulse {
   0% {
