@@ -4,8 +4,16 @@ class Welcome extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid-welcome">
-          <p className="initial">{this.props.text}</p>
+        <div className="container">
+          <div className="col-lg-4"> </div>
+          <div className="col-lg-4">
+            <div className="welcome-screen">
+              >> JACOB BENAIM <span className="flashing-box">||</span>
+            </div>
+          </div>
+          <div className="col-lg-4"> </div>
+
+          {/* <p className="initial">{this.props.text}</p> */}
         </div>
       </React.Fragment>
     );

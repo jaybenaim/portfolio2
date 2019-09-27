@@ -1,18 +1,22 @@
 <div class="container-fluid hero">
   <main>
     <div class="container">
-      <div class="col-lg-4">
-        <p class="about-me-link">
-          <%= link_to 'ABOUT ME', about_mes_path %>
-        </p>
-      </div>
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-    </div>
+    
 
-    <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
-    <p class="brand-statement">
-      A Software Developer with too many ideas for the amount of fingers he has.
-    </p>
+    <div class="welcome-screen">
+      <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
+      <p class="brand-statement">
+        A Software Developer with too many ideas for the amount of fingers he
+        has.
+      </p>
+      <nav>
+        <ul>
+          <li>
+            <a href="about_mes"> > About Me</a>
+          </li>
+          <li> <a href="/"> > Projects</a></li>
+        </ul>
+      </nav>
+    </div>
   </main>
 </div>
