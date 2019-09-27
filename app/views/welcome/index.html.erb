@@ -1,24 +1,18 @@
-<div class="container-fluid">
+<div class="container-fluid hero">
   <main>
-    <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
-    <p>
-      <em>
-        A Software Developer with too many ideas for the amount of fingers he
-        has.
-      </em>
-    </p>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-sm-12">
-          <%= react_component("Skills") %>
-        </div>
-        <div class="col-lg-1 col-sm-12">
-          col 2
-        </div>
-        <div class="col-lg-7 col-sm-12">
-          <%= react_component("AboutMe") %>
-        </div>
+    <div class="container">
+      <div class="col-lg-4">
+        <p class="about-me-link">
+          <%= link_to 'ABOUT ME', about_mes_path %>
+        </p>
       </div>
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4"></div>
     </div>
+
+    <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
+    <p class="brand-statement">
+      A Software Developer with too many ideas for the amount of fingers he has.
+    </p>
   </main>
 </div>

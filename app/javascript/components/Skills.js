@@ -17,6 +17,10 @@ class Skills extends React.Component {
                 <td>JavaScript</td>
                 <td>Django</td>
                 <td>React</td>
+                <td>Bootstrap</td>
+                <td>MongoDB</td>
+                <td>PostgreSQL</td>
+                <td>Jest</td>
               </tr>
               <tr>
                 <td>
@@ -31,14 +35,6 @@ class Skills extends React.Component {
                 <td>
                   <SkillsProgressMeter text="React" number="80" />
                 </td>
-              </tr>
-              <tr>
-                <td>Bootstrap</td>
-                <td>MongoDB</td>
-                <td>PostgreSQL</td>
-                <td>Jest</td>
-              </tr>
-              <tr>
                 <td>
                   <SkillsProgressMeter text="Bootstrap" number="90" />
                 </td>

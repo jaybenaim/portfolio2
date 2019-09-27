@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @about_me.text %>
+</p>
+
+<%= link_to 'Edit', edit_about_me_path(@about_me) %> | <%= link_to 'Back',
+about_mes_path %> <%= link_to 'Delete', about_me_path(@about_me), method:
+:delete, data: {confirm: 'Are you sure?' } %>
