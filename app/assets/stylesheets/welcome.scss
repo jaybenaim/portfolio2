@@ -7,6 +7,7 @@ body {
   // background: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
   // background-size: cover;
   // background-repeat: none;
+  overflow: hide;
 }
 .hero {
   background: url("https://i.imgur.com/qSQ8L1i.jpg");
@@ -51,6 +52,7 @@ nav ul li {
 }
 nav ul li a {
   color: white;
+  font-size: 22px;
 }
 .grid-container {
   padding-top: 3%;
@@ -104,6 +106,10 @@ td {
   height: 100%;
   border-radius: inherit;
   transition: width 0.2s ease-in;
+}
+.home-button {
+  padding: 0 50%;
+  font-size: 28px;
 }
 // .about-me-link a {
 //   background: rgba(40%, 57.1%, 96.8%, 0.4);

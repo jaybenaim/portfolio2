@@ -7,7 +7,7 @@ class AboutMe extends React.Component {
         <section className="about-me-section">
           <p>
             I began my journey as a software developer from a chef. I spent most
-            my working life in the kitchen, building temas, creating menus,
+            my working life in the kitchen, building teams, creating menus,
             living a very fast paced life. Unfortunately I was in a motorcycle
             accident where I was not able to return to my culinary feild. I was
             yearning for something to expand my creativity, I had a passion for

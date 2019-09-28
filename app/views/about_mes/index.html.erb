@@ -4,34 +4,10 @@
   <h1>About Me's</h1>
 
   <%= react_component("Skills") %>
-  <table>
-    <thead>
-      <tr>
-        <th colspan="3"></th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <% @about_mes.each do |about_me| %>
-      <tr>
-        <td>
-          <div className="about-me-posts">
-            <%= link_to about_me.text, about_me %>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td><%= react_component("AboutMe") %></td>
-      </tr>
-      <% end %>
-    </tbody>
-  </table>
-
   <br />
-
-  <div class="nav-buttons">
-    <%= link_to 'New About Me', new_about_me_path %>
-    <br />
+  <span class="home-button">
     <%= link_to 'Home', welcome_index_path %>
-  </div>
+  </span>
+  <br />
+  <%= react_component("AboutMe") %>
 </div>

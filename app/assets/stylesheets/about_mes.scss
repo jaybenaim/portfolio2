@@ -4,11 +4,15 @@
 .about-me-posts {
   height: 500px;
   width: 100%;
-  background: #eee;
   border: 2px outset gray;
   border-radius: 5px;
   padding: 10px;
 }
-.about-me-page {
-  background: rgba(0, 0, 0, 0.3);
+// .about-me-page {
+//   background: rgba(0, 0, 0, 0.3);
+// }
+.about-me-section p {
+  font-size: 22px;
+  text-align: center;
+  line-height: 25px;
 }
