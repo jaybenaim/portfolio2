@@ -7,21 +7,42 @@ body {
   // background: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
   // background-size: cover;
   // background-repeat: none;
-  overflow: hide;
+  background: url("https://i.imgur.com/qSQ8L1i.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  // overflow: hide;
+}
+html {
+  height: 100%;
 }
 .hero {
-  background: url("https://i.imgur.com/qSQ8L1i.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 30px;
-  padding-bottom: 40%;
+  // background: url("https://i.imgur.com/qSQ8L1i.jpg");
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // padding: 30px;
+  // padding-bottom: 40%;
+}
+.content {
+  margin-top: 180px;
+  margin-left: 10px;
+  max-width: 110%;
 }
 .welcome-screen {
   width: 400px;
   color: white;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 30px;
+  margin-left: -160px;
+}
+.brand-statement {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-style: italic;
+  line-height: 30px;
 }
 .flashing-box {
   width: 10px;
@@ -30,6 +51,14 @@ body {
   animation-iteration-count: infinite;
   animation-duration: 2s;
 }
+@media only screen and (max-width: 900px) {
+  .name-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+  }
+}
+
 @keyframes flash {
   from {
     background: black;
@@ -53,6 +82,7 @@ nav ul li {
 nav ul li a {
   color: white;
   font-size: 22px;
+  margin-left: -20px;
 }
 .grid-container {
   padding-top: 3%;
@@ -79,14 +109,7 @@ nav ul li a {
   padding: 10px;
   letter-spacing: 1.2px;
 }
-.brand-statement {
-  color: white;
-  font-size: 14px;
-  margin-bottom: 20px;
-  font-style: italic;
-  line-height: 40px;
-  width: 450px;
-}
+
 td {
   text-align: center;
   padding: 3px;

@@ -1,22 +1,27 @@
 <div class="container-fluid hero">
-  <main>
-    <div class="container">
-    
-
-    <div class="welcome-screen">
-      <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
+  <div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4 content">
+      <!-- <div class="welcome-screen"> -->
+      <div class="name-container">
+        <%= react_component("Welcome", { text: "JACOB BENAIM" }) %>
+      </div>
+      <br />
       <p class="brand-statement">
-        A Software Developer with too many ideas for the amount of fingers he
-        has.
+        A Software Developer with more ideas for the amount of fingers he has.
       </p>
+      <br />
       <nav>
         <ul>
           <li>
             <a href="about_mes"> > About Me</a>
           </li>
-          <li> <a href="/"> > Projects</a></li>
+          <br />
+          <li><a href="/"> > Projects</a></li>
         </ul>
       </nav>
+      <!-- </div> -->
     </div>
-  </main>
+    <div className="col-lg-3"></div>
+  </div>
 </div>

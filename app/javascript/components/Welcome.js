@@ -5,14 +5,15 @@ class Welcome extends React.Component {
     return (
       <React.Fragment>
         <div className="container">
-          <div className="col-lg-4"> </div>
-          <div className="col-lg-4">
-            <div className="welcome-screen">
-              >> JACOB BENAIM <span className="flashing-box">||</span>
+          <div className="row">
+            <div className="col-lg-4"> </div>
+            <div className="col-lg-4">
+              <div className="welcome-screen">
+                >> JACOB BENAIM <span className="flashing-box">||</span>
+              </div>
             </div>
+            <div className="col-lg-4"> </div>
           </div>
-          <div className="col-lg-4"> </div>
-
           {/* <p className="initial">{this.props.text}</p> */}
         </div>
       </React.Fragment>
