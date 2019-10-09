@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
+import CommunitySlideshow from "./CommunitySlideshow";
+import YelpcampSlideshow from "./YelpcampSlideshow";
+import CrowdSurferSlideshow from "./CrowdSurferSlideshow";
 
 class ProjectsLandingPage extends React.Component {
   render() {
@@ -10,24 +13,20 @@ class ProjectsLandingPage extends React.Component {
           <h1>My Projects</h1>
           <Row>
             <Col lg={4}>
-              <img
-                src="https://i.imgur.com/8pRxQan.jpg"
-                alt="snapshot of homepage for community app"
-              ></img>
-              <a href="https://github.com/jaybenaim/community">Community</a>
-              <p>
-                An app bringing communities together that allows users to see
-                the people in their community and create a communication base
-                where items can be lent to each other for a small price of a
-                conversation or a cup of coffee Two week sprint Utilized Github
-                project planning
-              </p>
+              <CommunitySlideshow />
+              <div className="project-container">
+                <a href="https://github.com/jaybenaim/community">Community</a>
+                <p>
+                  An app bringing communities together that allows users to see
+                  the people in their community and create a communication base
+                  where items can be lent to each other for a small price of a
+                  conversation or a cup of coffee Two week sprint Utilized
+                  Github project planning
+                </p>
+              </div>
             </Col>
             <Col lg={4}>
-              <img
-                src="https://i.imgur.com/yy9nXpg.jpg"
-                alt="snapshot of homepage for yelpcamp app"
-              ></img>
+              <YelpcampSlideshow />
               <a href="https://github.com/jaybenaim/yelpCamp/tree/master">
                 YelpCamp
               </a>
@@ -37,10 +36,7 @@ class ProjectsLandingPage extends React.Component {
               </p>
             </Col>
             <Col lg={4}>
-              <img
-                src="https://i.imgur.com/vZVKLNE.png"
-                alt="snapshot of homepage for crowd_surfer app"
-              ></img>
+              <CrowdSurferSlideshow />
               <a href="https://i.imgur.com/vZVKLNE.png">Crowd Surfer</a>
               <p>
                 A crowd funding app using Django and Python, and PostgreSQL.

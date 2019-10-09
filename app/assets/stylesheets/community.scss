@@ -1,0 +1,65 @@
+// COMMUNITY community-SLIDESHOW
+
+.community-slideshow {
+  background-color: #000;
+  width: 350px;
+  height: 200px;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.community-slideshow li {
+  width: 350px !important;
+  height: 200px !important;
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 50s linear infinite;
+}
+
+.community-slideshow li:nth-child(1) {
+  background-image: url(https://i.imgur.com/8pRxQan.jpg);
+}
+.community-slideshow li:nth-child(2) {
+  background-image: url(https://i.imgur.com/cyBZiBy.png);
+  animation-delay: 10s;
+}
+.community-slideshow li:nth-child(3) {
+  background-image: url(https://i.imgur.com/U32eYVF.png);
+  animation-delay: 20s;
+}
+.community-slideshow li:nth-child(4) {
+  background-image: url(https://i.imgur.com/4Ln08Zj.png);
+  animation-delay: 30s;
+}
+.community-slideshow li:nth-child(5) {
+  background-image: url(https://i.imgur.com/FT4QsCN.png);
+  animation-delay: 40s;
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+}
+
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .community-slideshow li {
+  opacity: 1;
+}
