@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+.hero {
   // background: rgba(53%, 49.4%, 48%, 0.3) !important;
   // background: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
   // background-size: cover;
@@ -11,8 +11,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
 
   // overflow: hide;
+}
+.home {
+  height: 100%;
+  padding-bottom: 30.9%;
 }
 html {
   height: 100%;
@@ -25,7 +30,7 @@ html {
   // padding-bottom: 40%;
 }
 .content {
-  margin-top: 180px;
+  margin-top: 220px;
   margin-left: 10px;
   max-width: 110%;
 }
