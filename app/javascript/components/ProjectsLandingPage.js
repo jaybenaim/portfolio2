@@ -10,7 +10,12 @@ class ProjectsLandingPage extends React.Component {
     return (
       <React.Fragment>
         <Container className="project-landing">
-          <h1>My Projects</h1>
+          <div className="back-button">
+            <a href="/">
+              <i className="fa fa-arrow-circle-left"></i>
+            </a>
+          </div>
+          <h1 className="projects-h1">My Projects</h1>
           <Row>
             <Col lg={4}>
               <CommunitySlideshow />

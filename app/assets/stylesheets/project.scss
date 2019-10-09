@@ -1,6 +1,9 @@
 // Place all the styles related to the Project controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: #eee;
+}
 .fa {
   font-size: 20px;
 }
@@ -14,8 +17,10 @@
   padding-top: 20px;
   margin: 0 auto;
   margin-top: 60px;
-
   width: 50%;
+}
+.contact-info p {
+  font-size: 18px;
 }
 img {
   width: 350px;
@@ -23,4 +28,13 @@ img {
 }
 .project-landing a {
   font-size: 22px;
+}
+.projects-h1 {
+  margin-top: -49px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+.back-button a i {
+  font-size: 50px;
+  margin-top: 20px;
 }

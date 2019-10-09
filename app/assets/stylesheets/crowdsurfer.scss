@@ -8,6 +8,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 25px;
+  border-radius: 8px;
 }
 
 .crowdsurfer-slideshow li {
@@ -20,6 +22,7 @@
   opacity: 0;
   z-index: 0;
   animation: imageAnimation 50s linear infinite;
+  border-radius: 8px;
 }
 
 .crowdsurfer-slideshow li:nth-child(1) {
