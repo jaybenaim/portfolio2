@@ -38,3 +38,9 @@ img {
   font-size: 50px;
   margin-top: 20px;
 }
+@media screen and (max-width: 900px) {
+  .image-slider {
+    display: flex;
+    justify-content: center;
+  }
+}
