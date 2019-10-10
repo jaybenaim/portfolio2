@@ -7,20 +7,21 @@ class Skills extends React.Component {
     return (
       <React.Fragment>
         <div className="skills-container">
-          <p className="skills-heading">
-            <strong>Skills</strong>
-          </p>
+          <p className="skills-heading"></p>
           <table>
+            <thead>
+              <tr>
+                <th colSpan="4">
+                  <strong className="skills-heading">Skills</strong>
+                </th>
+              </tr>
+            </thead>
             <tbody>
               <tr>
-                <td>Python</td>
-                <td>JavaScript</td>
-                <td>Django</td>
-                <td>React</td>
-                <td>Bootstrap</td>
-                <td>MongoDB</td>
-                <td>PostgreSQL</td>
-                <td>Jest</td>
+                <th>Python</th>
+                <th>JavaScript</th>
+                <th>Django</th>
+                <th>React</th>
               </tr>
               <tr>
                 <td>
@@ -35,6 +36,14 @@ class Skills extends React.Component {
                 <td>
                   <SkillsProgressMeter text="React" number="80" />
                 </td>
+              </tr>
+              <tr>
+                <th>Bootstrap</th>
+                <th>MongoDB</th>
+                <th>PostgreSQL</th>
+                <th>Jest</th>
+              </tr>
+              <tr>
                 <td>
                   <SkillsProgressMeter text="Bootstrap" number="90" />
                 </td>

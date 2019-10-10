@@ -107,14 +107,17 @@ nav ul li a {
 .grid-col-3 {
   border-left: 3px solid rgb(92.9%, 48.2%, 31.9%);
 }
+.skills-heading {
+  font-size: 24px;
+}
 .skills-container {
-  background: #eee;
-  border: 2px outset gray;
-  border-radius: 5px;
+  background-color: rgb(10, 25, 47);
+  color: rgb(136, 146, 176);
   padding: 0 14px 10px 14px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .skills-heading {
   text-align: center;
@@ -126,28 +129,36 @@ nav ul li a {
 
 td {
   text-align: center;
-  padding: 3px;
+  padding: 10px;
   font-weight: 600;
   margin-right: 30px;
 }
 .progress-bar {
   position: relative;
-  height: 24px;
+  height: 30px;
   width: 80px;
   border-radius: 50px;
   border: 1px solid #333;
-  background: white !important;
+  background: rgb(136, 146, 176) !important;
 }
 .progress-bar-filler {
-  background: rgb(40%, 57.1%, 96.8%);
+  background: rgb(100, 255, 218);
   height: 100%;
   border-radius: inherit;
   transition: width 0.2s ease-in;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .home-button {
   padding: 0 50%;
   font-size: 28px;
 }
+.home-button a {
+  color: rgb(100, 255, 218);
+  margin-left: -420px;
+}
+
 // .about-me-link a {
 //   background: rgba(40%, 57.1%, 96.8%, 0.4);
 //   border: 1px solid rgb(40%, 57.1%, 96.8%);
@@ -171,22 +182,6 @@ td {
 //   margin-bottom: 50px;
 // }
 
-.about-me-section {
-  height: 500px;
-  background: #eee;
-  border: 2px outset gray;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 50px;
-}
-.about-me-posts {
-  height: 500px;
-  width: 100%;
-  background: #eee;
-  border: 2px outset gray;
-  border-radius: 5px;
-  padding: 10px;
-}
 .nav-buttons {
   padding: 20px;
 }

@@ -1,13 +1,32 @@
 <div class="about-me-page">
-  <p id="notice"><%= notice %></p>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 about-me-nav">
+        <ul>
+          <li>
+            <p class="home-button">
+              <%= link_to 'Home', welcome_index_path %>
+            </p>
+          </li>
+          <li>
+            <p>
+              <%= react_component("AboutMeButton") %>
+            </p>
+          </li>
+        </ul>
 
-  <h1>About Me's</h1>
+        <br />
+      </div>
+      <div class="col-lg-4">
+        <h1>About Me</h1>
+      </div>
+      <div class="col-lg-4">
+        <%= react_component("Skills") %>
+      </div>
+    </div>
+  </div>
+  <br />
 
-  <%= react_component("Skills") %>
   <br />
-  <span class="home-button">
-    <%= link_to 'Home', welcome_index_path %>
-  </span>
   <br />
-  <%= react_component("AboutMe") %>
 </div>

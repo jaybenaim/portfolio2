@@ -1,9 +1,11 @@
 // Place all the styles related to the AboutMes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 .about-me-posts {
   height: 500px;
   width: 100%;
+  background: #eee;
   border: 2px outset gray;
   border-radius: 5px;
   padding: 10px;
@@ -12,10 +14,47 @@
   height: 100%;
   background: white;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 100%;
+  background-color: rgb(10, 25, 47);
+  color: rgb(136, 146, 176);
+  background-size: cover;
+}
+
+.about-me-section {
+  height: 500px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
 }
 .about-me-section p {
   font-size: 22px;
   text-align: center;
   line-height: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(10, 25, 47);
+  color: rgb(136, 146, 176);
+  width: 300%;
+  margin-top: 150px;
+}
+.my-story-button {
+  color: rgb(100, 255, 218);
+  border-color: rgb(100, 255, 218);
+  float: left;
+  font-size: 28px;
+  margin-left: -100px;
+}
+.my-story-button:hover {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+.about-me-nav ul li {
+  list-style: none;
 }

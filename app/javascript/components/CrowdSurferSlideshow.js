@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import PropTypes, { string } from "prop-types";
 import "../../assets/stylesheets/crowdsurfer.scss";
 
 class CrowdSurferSlideshow extends React.Component {
