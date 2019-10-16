@@ -248,7 +248,6 @@
     "fs-write-stream-atomic": "^1.0.10",
     "from2": "^2.3.0",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^1.2.9",
     "fstream": "^1.0.12",
     "function-bind": "^1.1.1",
     "gauge": "^2.7.4",
