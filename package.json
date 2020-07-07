@@ -448,7 +448,7 @@
     "normalize-path": "^3.0.0",
     "normalize-range": "^0.1.2",
     "normalize-url": "^1.9.1",
-    "npm": "^6.12.0",
+    "npm": "^6.14.6",
     "npm-bundled": "^1.0.6",
     "npm-packlist": "^1.4.6",
     "npm-run-path": "^2.0.2",
